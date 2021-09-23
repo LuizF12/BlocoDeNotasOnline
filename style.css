@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+#txt {
+    height: 400px;
+    width: 880px;
+    background-color: rgb(194, 194, 194);
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.salvar{
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 3px 3px black;
+    background-color: transparent;
+    transition: background, 0.8s;
+    transition: border, 0.8s;
+    transition: box, 0.8s;
+}
+
+.salvar:hover,
+focus{
+    border: 3px solid rgb(0, 170, 0);
+    background-color: rgb(0, 170, 0);
+    box-shadow: 0px 0px 0px black;
+}
